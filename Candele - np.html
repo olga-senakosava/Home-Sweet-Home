@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home Sweet Home</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="ProdottiCSS.css" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Jim Nightshade' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet'>
+  <script src="indexJS.js"></script>
+  </head>
+
+  <body>
+
+  <div id="contenuto">
+
+  <header id="titolo">
+  <img id="logo" src="img/icone/Home Sweet Home.png" alt="logo" />
+  </header>
+
+
+
+  <div id="heading">
+
+  <nav><ul id="ulmenu">
+
+
+
+  <li class="menu" id="menuc"><a onmouseover="Over1()" onmouseout="Out1()" onclick="Candele()"> <img id="candle1" src="img/icone/noun_Candle_675838.png" />Candele</a>
+
+
+
+    <ul id="candele">
+
+    <li class="blink"><a href="Candele - p.html" onmouseover="bowC1Hover()" onmouseout="bowC1Out()">
+      <img id="bowC1" src="img/icone/noun_bow_970960 - Copia.png"/>Profumate<img id="bowC1_1" src="img/icone/noun_bow_970960 - Copia.png"/></a></li>
+
+    <li class="blink"><a href="Candele - np.html" onmouseover="bowC2Hover()" onmouseout="bowC2Out()">
+      <img id="bowC2" src="img/icone/noun_bow_970960 - Copia.png"/>Non profumate<img id="bowC2_1" src="img/icone/noun_bow_970960 - Copia.png"/></a></li>
+  </ul>
+  </li>
+
+
+
+  <li class="menu" id="menua"><a href="Candele - acc.html" onmouseover="Over2()" onmouseout="Out2()"> <img id="candle2" src="img/icone/noun_Candle_675838.png"/>Accessori</a></li>
+
+
+
+  <li id="home" title="Pagina principale"><a href="index.html" onmouseover="casettaHover()" onmouseout="casettaOut()"> <img id="casaHover" src="img/icone/noun_House_454374.png" /> </a></li>
+
+
+
+  <li class="menu" id="menus"><a onmouseover="Over3()" onmouseout="Out3()" onclick="Speciali()"> <img id="candle3" src="img/icone/noun_Candle_675838.png"/>Speciali</a>
+
+
+    <ul id="speciali">
+      <li class="blink" id="bottoneNatale"><a onclick="Natale()" onmouseover="bowS1Hover()" onmouseout="bowS1Out()" >
+        <img src="img/icone/noun_bow_970960 - Copia.png" id="bowS1" />Natale<img
+        src="img/icone/noun_bow_970960 - Copia.png" id="bowS1_1" /></a> </li>
+        <ul id="natale">
+
+          <li class="blink"><a onclick="nataleIndietro()"><img src="img/icone/noun_Arrow_1265466.png" id="freccia1"></a></li>
+
+          <li class="blink"><a href="Speciali - Natale - p.html" onmouseover="bowN1Hover()" onmouseout="bowN1Out()">
+            <img src="img/icone/noun_bow_970960 - Copia.png" id="bowN1" />Profumate<img src="img/icone/noun_bow_970960 - Copia.png" id="bowN1_1" /></a></li>
+
+          <li class="blink"><a href="Speciali - Natale - np.html" onmouseover="bowN2Hover()" onmouseout="bowN2Out()">
+            <img src="img/icone/noun_bow_970960 - Copia.png" id="bowN2" />Non profumate<img src="img/icone/noun_bow_970960 - Copia.png" id="bowN2_1" /></a></li>
+
+          <li class="blink"><a href="Speciali - Natale - acc.html" onmouseover="bowN3Hover()" onmouseout="bowN3Out()">
+            <img src="img/icone/noun_bow_970960 - Copia.png" id="bowN3" />Accessori<img src="img/icone/noun_bow_970960 - Copia.png" id="bowN3_1" /></a></li>
+
+        </ul>
+
+      <li class="blink" id="bottoneCompleanno"><a onclick="Compleanno()" onmouseover="bowS2Hover()" onmouseout="bowS2Out()">
+        <img src="img/icone/noun_bow_970960 - Copia.png" id="bowS2" />Compleanno<img src="img/icone/noun_bow_970960 - Copia.png" id="bowS2_1" /></a> </li>
+        <ul id="compleanno">
+
+          <li class="blink"><a onclick="compleannoIndietro()"><img src="img/icone/noun_Arrow_1265466.png" id="freccia2"></a></li>
+
+          <li class="blink"><a title="Un po' di pazienza, i nuovi prodotti arriveranno presto!"><img src="img/icone/noun_padlock_472897.png"
+            class="lucchetto" />Profumate <img src="img/icone/noun_padlock_472897.png" class="lucchetto" /></a></li>    <!-- !!! Probabilmente
+                                     potrebbe essere sbagliato usare <a> senza href, però teoricamente questa cosa dovrebbe essere temporanea, per permettere
+                                     di rendere le due opzioni disponibili nel futuro, col il tag <a> e le sue caratteristiche CSS già pronti
+                                     (quindi non fare altro che aggiungere href col link). Così in genere si fa? -->
+
+          <li class="blink"><a href="Speciali - Compleanno - np.html" onmouseover="bowCoHover()" onmouseout="bowCoOut()">
+            <img src="img/icone/noun_bow_970960 - Copia.png" id="bowCo" />Non profumate <img src="img/icone/noun_bow_970960 - Copia.png" id="bowCo1" /></a></li>
+
+          <li class="blink"><a title="Un po' di pazienza, i nuovi prodotti arriveranno presto!"><img src="img/icone/noun_padlock_472897.png"
+            class="lucchetto" />Accessori <img src="img/icone/noun_padlock_472897.png" class="lucchetto" /></a></li>
+
+        </ul>
+
+    </ul>
+  </li>
+
+
+
+  <li class="menu" id="menuo"><a href="News.html" onmouseover="Over4()" onmouseout="Out4()">
+    <img id="candle4" src="img/icone/noun_Candle_675838.png"/>News</a></li>
+
+  </ul></nav>
+
+
+      <form id="search-form" name="search" action="Candele - np.html" method="get">
+          <input id="search-input" name="search" type="text" placeholder="Cerca non profumate..."> <br>
+          <input id="search-button"  name="submit" type="submit" value="Cerca">
+      </form>
+
+   </div>
+
+
+
+   <h1 class="mainHead">Candele non profumate</h1>
+
+
+
+
+
+<section id="contenitore">
+
+
+  <figure class="immagini"> <a href="c-np-amanita.html" target="_blank"><img class="prodotti" src="img/candele/np/luck-1879766_1920.jpg" width="180" height="200" alt="fungo" />
+    <figcaption>Amanita<br>€8,99</figcaption></a> </figure>
+
+  <figure class="immagini"> <a href="c-np-gatto.html" target="_blank"><img class="prodotti" src="img/candele/np/cat-660380_1280.jpg" width="170" height="200" alt="gatto" />
+    <figcaption>Gatto Saggio<br>€9,99</figcaption> </a></figure>
+
+  <figure class="immagini"> <a href="c-np-candelina semplice.html" target="_blank"><img class="prodotti" src="img/candele/np/tealight-610338_1280.jpg" width="230" height="200" alt="piccola classica" />
+      <figcaption>Candelina semplice<br>€0,50<br><img class="portafogli" src="img/icone/noun_coin purse_726965.png"/></figcaption> </a></figure>
+
+
+
+</section>
+
+
+<div id="info">
+
+  <section id="raggiungerci">
+  Come raggiungerci: <br> <br>
+  <address>via dei Marshmallow, 13</address>
+  tel. 0067839321<br>
+  email: <a id="mail" onclick="openMailForm()">homesweethome@gmail.com</a>
+  <form id="mailForm" action="mailto:homesweethome@gmail.com?subject=Oggetto" method="post">
+    <legend>Nome:</legend>
+    <input class="mailInput" type="text" name="nome">
+    <legend>Cognome:</legend>
+    <input class="mailInput" type="text" name="cognome">
+    <legend>La tua mail:</legend>
+    <textarea class="mailInput" id="mailTextarea" name="mail"></textarea> <br>
+    <input class="mailBottone" type="submit" value="Invia mail">
+    <input class="mailBottone" type="reset" value="Annulla" onclick="annulla()">
+
+  </form>
+  </section>
+
+<section id="orari">
+Orari di apertura:
+<ul>
+  <li> <img src="img/icone/noun_Bell_1523399 - Copia.png"/>Lunedì - Venerdì: 9:00-20:00</li>
+  <li> <img src="img/icone/noun_Bell_1523399 - Copia.png"/>Sabato: 10:00-18:00</li>
+  <li> <img src="img/icone/noun_Bell_1523399 - Copia (2).png"/>Domenica chiuso</li>
+</ul>
+</section>
+
+</div>
+
+
+
+
+<div id="frecciaSu"> <a href="#" onclick="frecciaSu()"> <img src="img/icone/noun_pointing hand_454372.png" /> </a> </div>
+
+
+
+<footer>©2019 - Designed by Olga - ringrazio<span id="piede"> <a href="https://thenounproject.com/iconka/" class="iconCreators">Denis Sashin</a>,
+  <a href="https://thenounproject.com/evan103/" class="iconCreators">Evan Bond</a>,
+  <a href="https://thenounproject.com/milenazanotelli/" class="iconCreators">Milena Zanotelli</a>,
+  <a href="https://thenounproject.com/simplifica07/" class="iconCreators">Brand Mania</a>,
+  <a href="https://thenounproject.com/olgamur_2015/" class="iconCreators">Olga</a>,
+  <a href="https://thenounproject.com/Julihan/" class="iconCreators">Julien Deveaux</a>,
+  <a href="https://thenounproject.com/valeriy25/" class="iconCreators">Valeriy</a>
+   e <a href="https://thenounproject.com/alex2900/" class="iconCreators">Alex Muravev</a> per le icone
+<img src="img/icone/noun_like_454395.png" id="like"/> <img src="img/icone/noun_Home_1251048.png" id="arrowHome" /> </span> </footer>
+<div id="frecciaSu"> <a href="#" onclick="frecciaSu()"> <img src="img/icone/noun_pointing hand_454372.png" /> </a> </div>
+
+
+
+
+</div>
+
+</body>
+
+
+
+</html>

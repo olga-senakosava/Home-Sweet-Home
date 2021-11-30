@@ -1,0 +1,870 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Quattrocento+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
+
+
+body {
+  background-image:url("img/sfondi-deco/flowers-3862320.jpg");
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+#contenuto {
+  background-color:rgba(255,255,255,0.4);
+  margin:3vw;
+  padding:4vw 1vw 1vw 1vw;
+  border:0.3px solid transparent;
+  border-image-source:url('img/icone/noun_decoration_1503924.png');
+  border-image-slice:80;
+  border-image-width:15px;
+  border-image-repeat:round;
+  border-image-outset:9px;
+  outline:5px solid rgb(255,255,255,0.1);
+  display:grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 23vw 24vw auto auto auto 100px;
+}
+
+
+#titolo {
+  grid-column-start:1;
+  grid-column-end:span 1;
+  grid-row:1 / span 1;
+  justify-self:center;
+  align-self:center;
+  font-family: 'Allura', cursive;
+}
+
+
+#logo {
+  height:27vw;
+  width:65vw;
+  transition:all 2s;
+
+}
+
+#logo:hover {
+  height:32vw;
+  width:70vw;
+}
+
+#heading {
+  grid-column:1 / span 1;
+  grid-row-start:2;
+  grid-row-end:span 1;
+  position:relative;
+}
+
+#ulmenu {
+  margin:0;
+  padding:0;
+}
+
+
+
+#home {
+  list-style-type:none;
+  position:absolute;
+  top:20%;
+  left:42.5%;
+}
+
+#home img {
+  width:13vw;
+  height:13vw;
+  transition:all 1s;
+}
+
+#home img:hover {
+  width:13vw;
+  height:13vw;
+}
+
+.menu  {
+  list-style-type:none;
+}
+
+.menu a {
+  text-decoration:none;
+  color:black;
+  padding:3vw 2vw;
+  font-size:2.7vw;
+  font-weight:bold;
+  font-family: 'Allura', cursive;
+  transition:all 1s;
+}
+
+.menu a:hover {
+  font-size:2.9vw;
+}
+
+#menuc {
+  position:absolute;
+  top:51%;
+  left:0.2%;
+  cursor:pointer;
+}
+
+
+#menua  {
+  position:absolute;
+  top:51%;
+  left:19%;
+}
+
+
+#menus  {
+  position:absolute;
+  top:51%;
+  right:19%;
+  cursor:pointer;
+}
+
+#menuo  {
+  position: absolute;
+  top:51%;
+  right:1%;
+}
+
+#candle1, #candle2, #candle3, #candle4 {
+  width:4vw;
+  height:4vw;
+}
+
+#bowC1, #bowC1_1, #bowC2, #bowC2_1, #bowS1, #bowS1_1, #bowS2, #bowS2_1, #bowCo, #bowCo1, #bowN1, #bowN1_1, #bowN2, #bowN2_1, #bowN3, #bowN3_1 {
+  width:1.8vw;
+  height:1.8vw;
+}
+
+.lucchetto {
+  width:1vw;
+  height:1vw;
+}
+
+#candele {
+  display:none;
+  position:absolute;
+  top:90%;
+  left:9%;
+  list-style-type:none;
+  padding:24px 0 26px 0;
+  margin:1.9vw 0 0 0;
+  border:1px solid transparent;
+  border-image-source:url('img/icone/noun_Frame_1197744.png');
+  border-image-slice: 60;
+  border-image-repeat:stretch;
+  border-image-width: 2vw;
+  width:110%;
+}
+
+#candele li a {
+  font-size: 2.5vw;
+  font-family: 'Allura', cursive;
+}
+
+#speciali {
+  display:none;
+  position:absolute;
+  top:90%;
+  left:9.5%;
+  list-style-type:none;
+  padding:24px 0 26px 0;
+  margin:1.9vw 0 0 0;
+  border:1px solid transparent;
+  border-image-source:url('img/icone/noun_Frame_1197744.png');
+  border-image-slice: 60;
+  border-image-repeat:stretch;
+  border-image-width: 2vw;
+  width:110%;
+}
+
+ #bottoneNatale a, #bottoneCompleanno a {
+  font-size:2.5vw;
+}
+
+#natale {
+  display:none;
+  position:absolute;
+  top:0.1%;
+  left:-5%;
+  list-style-type:none;
+  width:110%;
+  padding:10px 0 26px 0;
+  border-bottom:2px solid transparent;
+  border-image-source:url('img/icone/noun_Frame_1197744 - Copia.png');
+  border-image-slice: 55;
+  border-image-repeat:stretch;
+  border-image-width: 2vw;
+}
+
+
+#natale li a {
+  font-size:2vw;
+  font-family: 'Allura', cursive;
+}
+
+#compleanno {
+  display:none;
+  position:absolute;
+  top:0.1%;
+  left:-5%;
+  list-style-type:none;
+  padding:10px 0 26px 0;
+  width:110%;
+  border-bottom:2px solid transparent;
+  border-image-source:url('img/icone/noun_Frame_1197744 - Copia.png');
+  border-image-slice: 55;
+  border-image-repeat:stretch;
+  border-image-width: 2vw;
+}
+
+
+#compleanno li a {
+  font-size:2vw;
+  font-family: 'Allura', cursive;
+}
+
+
+
+.blink {
+  text-align:center;
+  padding:0;
+}
+
+.blink a {
+  font-size:1.3vw;
+  padding:0;
+}
+
+
+#freccia1, #freccia2 {
+  width:5vw;
+  height:1vw;
+  transition:all 0.5s;
+}
+
+#freccia1:hover, #freccia2:hover {
+  width:5.5vw;
+  height:1.5vw;
+}
+
+
+#search-form {
+  position:absolute;
+  bottom:0%;
+  left:42.15%;
+}
+
+#search-input {
+  width:13.5vw;
+  background-color: transparent;
+  border-left:1px dotted black;
+  border-right:1px dotted black;
+  border-bottom:1px dotted black;
+  border-top:none;
+  border-radius: 15%;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size:20px;
+  font-weight: normal;
+}
+
+
+
+#search-button {
+  color:black;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size:20px;
+  font-weight:bold;
+  border:none;
+  border-bottom-left-radius:30%;
+  border-bottom-right-radius:30%;
+  background-color:rgba(129,33,33,0.03);
+  margin:1px 0;
+  width:97%;
+  transition:all 0.6s;
+}
+
+#search-button:hover {
+  background-color:rgba(129,33,33,0.8);
+  color:white;
+  border-radius:50%;
+  cursor:pointer;
+}
+
+
+
+#descrizione {
+  grid-column-start:1 / span 1;
+  grid-row-start:3;
+  grid-row-end:span 1;
+  text-align:center;
+  font-size:40px;
+  padding:60px 15% 100px 15%;
+  text-shadow: 0.4px 0.4px  black;
+  transition:all 1.5s;
+}
+
+#descrizione:hover {
+  font-size:40px;
+}
+
+
+.mainHead {
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Allura', cursive;
+}
+
+.smallHead {
+  font-size: 25px;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+
+
+#contenitore {
+  grid-column-start:1 / span 1;
+  grid-row-start:4;
+  grid-row-start:span 1;
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:center;
+  margin:30px 30px 200px 30px;
+}
+
+.immagini {
+  border:11px solid transparent;
+  border-image-source:url('img/icone/noun_decoration_332540.png');
+  border-image-slice: 60;
+  border-image-repeat: stretch;
+  border-image-width: 15px;
+  border-image-outset:-7px;
+  padding:5px 20px 30px 20px;
+  margin:9px;
+  transition:all 1s;
+}
+
+.immagini:hover {
+  border-image-width:23px;
+}
+
+
+
+
+.prodotti {
+  border-radius:20%;
+  border:1.6px solid rgba(90,30,10,0.8);
+  display: block;
+  margin:auto;
+}
+
+.immagini a {
+  text-decoration:none;
+  color:black;
+  font-family:inherit;
+}
+
+.immagini figcaption {
+  text-align:center;
+  font-size:20px;   /*1.9vw;*/
+  text-shadow: 0.47px 0.49px  black;
+  width:160px;
+  margin:10px auto 0 auto;
+  transition:all 0.6s;
+}
+
+
+figcaption:hover {
+  color:rgb(114,23,23);
+}
+
+
+.portafogli {
+  width:50px;
+  height:50px;
+  float:left;
+}
+
+
+figure button {
+  border:1px solid transparent;
+  border-radius:50%;
+  padding:9.5px 10px;
+  font-size:15px;
+  font-family:'Allura';
+  font-weight:bold;
+  cursor:pointer;
+  transition:all 0.6s;
+}
+
+figure button:hover {
+  box-shadow: 0px 0px 15px 0px rgba(255,255,255,0.9);
+  border-style: ridge;
+  border-color:rgba(0,0,0,0.8);
+}
+
+.evidenzaSpecial {
+  color: white;
+  background-color: rgba(114,23,23, 0.7);
+  padding: 3px 10px;
+  font-style: italic;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+
+
+
+#cCompleannoA {
+  background-color:orange;
+}
+
+#cCompleannoL {
+  background-color:rgb(141,123,195);
+}
+
+#cCompleannoV {
+  background-color:rgb(108,164,149);
+}
+
+
+#frecciaSu {
+  position:fixed;
+  bottom:0;
+  right:0;
+  transition:all 0.7s;
+  padding:0.4px 0;
+  opacity:0.6;
+}
+
+#frecciaSu:hover {
+  padding:0 0 10px 0;
+  opacity:1;
+}
+
+#frecciaSu img {
+  width:48px;
+  height:48px;
+}
+
+
+
+#news {
+  grid-column-start: 1 / span 1;
+  grid-row-start: 3;
+  grid-row-end:span 2;
+  background-image:url('img/icone/noun_Coffee_472910.png');
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: bottom;
+  margin-bottom:7vw;
+  padding-bottom: 5vw;
+}
+
+
+
+
+.vantaggi {
+  font-family:inherit;
+  margin:10px 20px 30px 20px;
+  background-color:rgba(255,255,255,0.5);
+  padding: 20px 50px;
+  color: black;
+}
+
+
+.vantaggi h2 {
+  font-size:50px;
+  font-family: 'Allura', cursive;
+}
+
+hr {
+  border-color: rgba(114,23,23, 0.5);
+  padding: 0;
+}
+
+.vantaggi p {
+  font-size:25px;
+  font-weight:normal;
+}
+
+.vantaggi a {
+  text-decoration:none;
+  font-weight:bold;
+  transition:all 0.6s;
+}
+
+.vantaggi p a:hover {
+  color:rgb(100,0,0);
+}
+
+
+#info {
+  background-color:rgba(88,46,46,0.5);
+  grid-column-start:1;
+  grid-column-end:span 1;
+  grid-row-start:5;
+  grid-row-end:span 1;
+  border:1px solid transparent;
+  border-image-source:url('img/icone/noun_Frame_655752.png');
+  border-image-slice: 90;
+  border-image-width: 20px;
+  border-image-repeat: round;
+  border-image-outset: 20px;
+  border-radius:2%;
+  margin: 60px 30px;
+  padding-top: 20px;
+  font-size:18px;
+  transition:all 1s;
+}
+
+#info:hover {
+  background-color:rgba(114,23,23,0.6);
+}
+
+
+
+#raggiungerci {
+float:left;
+margin:20px 20px 20px 40px;
+font-size:25px;
+transition:all 0.7s;
+}
+
+#raggiungerci:hover {
+  margin:20px 20px 20px 50px;
+}
+
+
+
+
+#raggiungerci a {
+  text-decoration:none;
+  border:2px solid transparent;
+  color:black;
+  border-image-source:url('img/icone/noun_Frame_1197744 - Copia - Copia.png');
+  border-image-slice: 80;
+  border-image-width: 25px;
+  border-image-repeat:stretch;
+  transition:all 0.4s;
+  line-height: 40px;
+
+}
+
+#raggiungerci a:hover {
+  border:2px solid transparent;
+  border-image-source:url('img/icone/noun_decoration_332540.png');
+  border-image-slice: 160;
+  border-image-width: 19px;
+  border-image-repeat:round;
+  padding:8px;
+}
+
+address {
+  line-height: 40px;
+
+}
+
+#mail {
+  cursor:pointer;
+
+}
+
+#mailForm {
+  display:none;
+
+}
+
+#mailForm legend {
+  font-family: inherit;
+  font-size:18px;
+}
+
+.mailInput {
+  border:1px dotted black;
+  border-radius:5%;
+  background-color:rgba(255,255,255,0.6);
+  font-family:inherit;
+  font-size:20px;
+}
+
+#mailTextarea {
+  width:30vw;
+  height:10vw;
+}
+
+.mailBottone {
+  border:none;
+  color:black;
+  font-family: inherit;
+  font-size:18px;
+  font-weight:bold;
+  border:none;
+  border-bottom-left-radius:30%;
+  border-bottom-right-radius:30%;
+  background-color:rgba(129,33,33,0.03);
+  transition:all 0.6s;
+  padding:5px;
+}
+
+.mailBottone:hover {
+  background-color:rgba(129,33,33,0.8);
+  color:white;
+  border-radius:50%;
+  cursor:pointer;
+}
+
+#orari {
+  float:right;
+  background-image:url('img/icone/noun_Pocket Watch_1416189.png');
+  background-repeat: no-repeat;
+  background-size: 350px 221px;
+  margin:20px 0px 20px 20px;
+  padding:0 70px 60px 0;
+  font-size:18px;
+  transition:all 0.7s;
+}
+
+#orari:hover {
+  font-size:18px;
+  margin:20px 0 20px 0;
+  padding:0 90px 60px 0;
+}
+
+#orari ul {
+  list-style-type:none;
+  margin-left:0;
+}
+
+#orari img {
+  width:40px;
+  height:40px;
+}
+
+
+footer {
+  grid-column-start:1;
+  grid-column-end:span 1;
+  grid-row-start:6;
+  grid-row-end: span 1;
+  align-self:end;
+  justify-self:start;
+  font-family:'Jim Nightshade', cursive;
+  font-size:19px;
+}
+
+#piede {
+  font-family:'Jim Nightshade', cursive;
+  font-size:0.01px;
+  transition:all 1.5s;
+  padding:50px 1px;
+}
+
+#piede:hover {
+  font-size:19px;
+  height:0.1vw;
+  width:0.1vw;
+}
+
+.iconCreators {
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+}
+
+#like {
+  height:20px;
+  width:20px;
+}
+
+#arrowHome {
+  height:20px;
+  width:23px;
+}
+
+
+
+
+@media only screen and (max-width:800px) {
+
+
+
+  #logo {
+    height:29vw;
+    width:68vw;
+    transition:all 2s;
+
+  }
+
+  #logo:hover {
+    height:32vw;
+    width:70vw;
+  }
+
+
+  .menu a {
+    font-size:4vw;
+    font-weight:bold;
+    transition:all 1s;
+  }
+
+  .menu a:hover {
+    font-size:4.4vw;
+  }
+
+  #home {
+    top:5%;
+    left:40.5%;
+  }
+
+  #home img {
+    width:17vw;
+    height:17vw;
+    transition:all 1s;
+  }
+
+  #home img:hover {
+    width:17vw;
+    height:17vw;
+  }
+
+  #search-form {
+    bottom:-13%;
+    left:38.7%;
+  }
+
+  #search-input {
+    width:20vw;
+    font-size:2.3vw;
+  }
+
+
+
+  #menuc {
+    top:120%;
+    left:0.2%;
+    cursor:pointer;
+  }
+
+
+  #menua  {
+    top:120%;
+    left:23%;
+  }
+
+
+  #menus  {
+    top:120%;
+    right:25%;
+    cursor:pointer;
+  }
+
+  #menuo  {
+    top:120%;
+    right:1%;
+  }
+
+  #candle1, #candle2, #candle3, #candle4 {
+    width:6vw;
+    height:6vw;
+  }
+
+  #bowC1, #bowC1_1, #bowC2, #bowC2_1, #bowS1, #bowS1_1, #bowS2, #bowS2_1, #bowCo, #bowCo1, #bowN1, #bowN1_1, #bowN2, #bowN2_1, #bowN3, #bowN3_1 {
+    width:4vw;
+    height:4vw;
+  }
+
+  .lucchetto {
+    width:3.3vw;
+    height:3.3vw;
+  }
+
+  #candele {
+    top:100%;
+    left:3%;
+    border-image-width: 3vw;
+    width:127%;
+  }
+
+  #candele li a {
+    font-size: 3.5vw;
+  }
+
+  #speciali {
+    top:100%;
+    left:8%;
+    border-image-width: 3.2vw;
+    width:115%;
+  }
+
+   #bottoneNatale a, #bottoneCompleanno a {
+    font-size:3.5vw;
+  }
+
+  #natale {
+    top:0.1%;
+    left:-7%;
+    width:115%;
+    border-image-width: 3vw;
+  }
+
+
+  #natale li a {
+    font-size:3vw;
+  }
+
+  #compleanno {
+    top:0.1%;
+    left:-7%;
+    border-image-width: 3vw;
+    width:115%;
+  }
+
+
+  #compleanno li a {
+    font-size:3vw;
+  }
+
+
+
+
+  #freccia1, #freccia2 {
+    width:8vw;
+    height:2vw;
+    transition:all 0.5s;
+  }
+
+  #freccia1:hover, #freccia2:hover {
+    width:8.5vw;
+    height:2.5vw;
+  }
+
+
+
+
+  #descrizione {
+    font-size:27px;
+    margin-top:30vw;
+  }
+  #descrizione:hover {
+    font-size:27px;
+  }
+  .descriptionHead {
+    font-size:45px;
+  }
+
+  #news {
+    margin-top:30vw;
+  }
+
+  #h1Offerte {
+    font-size:49px;
+  }
+
+  .vantaggi h2 {
+    font-size:33px;
+  }
+
+}

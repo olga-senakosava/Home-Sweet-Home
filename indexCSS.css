@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Quattrocento+Sans&display=swap');
+
+
+body {
+  background-image:url("img/sfondi-deco/flowers-3862320.jpg");
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+#contenuto {
+  background-color:rgba(255,255,255,0.4);
+  margin:0.2vw;
+  padding:4vw 0vw 1vw 0vw;
+  border:0.3px solid transparent;
+  border-image-source:url('img/icone/noun_decoration_1503924.png');
+  border-image-slice:80;
+  border-image-width:15px;
+  border-image-repeat:round;
+  border-image-outset:9px;
+  outline:5px solid rgb(255,255,255,0.1);
+  display:grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 550px auto auto auto auto 100px;
+}
+
+
+#titolo {
+  grid-column-start:1;
+  grid-column-end:span 1;
+  grid-row:1 / span 1;
+  justify-self:center;
+  align-self:center;
+  font-family: 'Allura', cursive;
+}
+
+
+#logo {
+  height:40vw;
+  width:96vw;
+  transition:all 0.6s;
+
+}
+
+#logo:hover {
+  height:41.5vw;
+  width:97.5vw;
+}
+
+#titolo h3 {
+  font-family: 'Allura', cursive;
+  font-size:35px;
+  text-align:center;
+  margin:0;
+  font-weight:bold;
+}
+
+
+
+#frecciaSu {
+  position:fixed;
+  bottom:0;
+  right:0;
+  transition:all 0.7s;
+  padding:0.4px 0;
+  opacity:0.6;
+}
+
+#frecciaSu:hover {
+  padding:0 0 10px 0;
+  opacity:1;
+}
+
+#frecciaSu img {
+  width:48px;
+  height:48px;
+}
+
+
+
+footer {
+  grid-column-start:1;
+  grid-column-end:span 1;
+  grid-row-start:6;
+  grid-row-end: span 1;
+  align-self:end;
+  justify-self:start;
+  font-family:'Jim Nightshade';
+  font-size:19px;
+}
+
+#piede {
+  font-family:'Jim Nightshade';
+  font-size:0.01px;
+  transition:all 1.5s;
+  padding:50px 1px;
+}
+
+#piede:hover {
+  font-size:19px;
+  height:0.1vw;
+  width:0.1vw;
+}
+
+.iconCreators {
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+}
+
+#like {
+  height:20px;
+  width:20px;
+}
+
+#arrowHome {
+  height:20px;
+  width:23px;
+}
