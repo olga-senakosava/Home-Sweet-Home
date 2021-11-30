@@ -10,6 +10,104 @@ body {
   font-family: 'Quattrocento Sans', sans-serif;
 }
 
+
+
+
+#heading {
+  grid-column:1 / span 1;
+  grid-row-start:2;
+  grid-row-end:span 1;
+  position:relative;
+}
+
+#ulmenu {
+  margin:0;
+  padding:0;
+}
+
+
+
+#home {
+  list-style-type:none;
+  position:absolute;
+  top:20%;
+  left:42.5%;
+}
+
+#home img {
+  width:13vw;
+  height:13vw;
+  transition:all 1s;
+}
+
+#home img:hover {
+  width:13vw;
+  height:13vw;
+}
+
+.menu  {
+  list-style-type:none;
+}
+
+.menu a {
+  text-decoration:none;
+  color:black;
+  padding:3vw 2vw;
+  font-size:2.7vw;
+  font-weight:bold;
+  font-family: 'Allura', cursive;
+  transition:all 1s;
+}
+
+.menu a:hover {
+  font-size:2.9vw;
+}
+
+#menuc {
+  position:absolute;
+  top:51%;
+  left:0.2%;
+  cursor:pointer;
+}
+
+
+#menua  {
+  position:absolute;
+  top:51%;
+  left:19%;
+}
+
+
+#menus  {
+  position:absolute;
+  top:51%;
+  right:19%;
+  cursor:pointer;
+}
+
+#menuo  {
+  position: absolute;
+  top:51%;
+  right:1%;
+}
+
+#candle1, #candle2, #candle3, #candle4 {
+  width:4vw;
+  height:4vw;
+}
+
+#bowC1, #bowC1_1, #bowC2, #bowC2_1, #bowS1, #bowS1_1, #bowS2, #bowS2_1, #bowCo, #bowCo1, #bowN1, #bowN1_1, #bowN2, #bowN2_1, #bowN3, #bowN3_1 {
+  width:1.8vw;
+  height:1.8vw;
+}
+
+.lucchetto {
+  width:1vw;
+  height:1vw;
+}
+
+
+
 #contenuto {
   background-color:rgba(255,255,255,0.4);
   margin:0.2vw;
