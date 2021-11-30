@@ -106,6 +106,47 @@ body {
   height:1vw;
 }
 
+#candele {
+  display:none;
+  position:absolute;
+  top:90%;
+  left:9%;
+  list-style-type:none;
+  padding:24px 0 26px 0;
+  margin:1.9vw 0 0 0;
+  border:1px solid transparent;
+  border-image-source:url('img/icone/noun_Frame_1197744.png');
+  border-image-slice: 60;
+  border-image-repeat:stretch;
+  border-image-width: 2vw;
+  width:110%;
+}
+
+#candele li a {
+  font-size: 2.5vw;
+  font-family: 'Allura', cursive;
+}
+
+#speciali {
+  display:none;
+  position:absolute;
+  top:90%;
+  left:9.5%;
+  list-style-type:none;
+  padding:24px 0 26px 0;
+  margin:1.9vw 0 0 0;
+  border:1px solid transparent;
+  border-image-source:url('img/icone/noun_Frame_1197744.png');
+  border-image-slice: 60;
+  border-image-repeat:stretch;
+  border-image-width: 2vw;
+  width:110%;
+}
+
+ #bottoneNatale a, #bottoneCompleanno a {
+  font-size:2.5vw;
+}
+
 
 
 #contenuto {
